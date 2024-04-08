@@ -121,3 +121,5 @@ C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\Page
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\PagedList.xml
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.AddDescription.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.RemoveDescription.resources
+C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.IdentityMigration.AddResetPasswordTokenAndFindByResetPasswordToken.resources
+C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.IdentityMigration.UpdateFindByResetPasswordToken.resources

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace ShopBanDoDienTu_Nhom1.ViewModel
 {
@@ -22,6 +23,7 @@ namespace ShopBanDoDienTu_Nhom1.ViewModel
         public DateTime? DateOfBirth { get; set; }
 
         [Display(Name = "Địa chỉ")]
+        [AllowHtml]
         public string Address { get; set; }
 
         [Display(Name = "Thành phố")]
