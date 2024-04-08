@@ -1,0 +1,8 @@
+﻿<h2>Xóa giỏ hàng</h2>
+
+<p>Bạn có chắc chắn muốn xóa toàn bộ giỏ hàng?</p>
+
+@using (Html.BeginForm("RemoveFromCart", "ShoppingCart", FormMethod.Post))
+{
+    <input type="submit" value="Xác nhận" class="btn btn-danger" />
+}

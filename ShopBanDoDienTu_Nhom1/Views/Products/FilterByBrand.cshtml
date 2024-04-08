@@ -1,0 +1,38 @@
+﻿@model List<ShopBanDoDienTu_Nhom1.Models.Product>
+@{
+    ViewBag.Title = "FilterByBrand";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container">
+        @if (Model.Any())
+        {
+            <h2 class="text-center">Các mặt hàng được lọc</h2> <br />
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="@Url.Content(item.Img)" class="card-img-top" alt="@item.ProductName" style="height: 200px; object-fit: cover">
+                            <div class="card-body">
+                                <h5 class="card-title">@Html.ActionLink(Html.DisplayFor(row => item.ProductName).ToString(), "Detail", new { id = item.ProductId, controller = "Home" })</h5>
+                                <p class="card-text">Giá: @Html.DisplayFor(modelItem => item.Price)</p>
+                                <p class="card-text">Loại mặt hàng: @Html.DisplayFor(modelItem => item.Category.CategoryName)</p>
+                                <p class="card-text">Thương hiệu: @Html.DisplayFor(modelItem => item.Brand.BrandName)</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="text-center">
+                <p>Không có sản phẩm nào được tìm thấy cho brand này.</p>
+                <a href="@Url.Action("Index", "Products")" class="btn btn-primary">Quay lại trang mặt hàng</a>
+            </div>
+        }
+    </div>
+</main>
+

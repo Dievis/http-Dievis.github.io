@@ -1,0 +1,140 @@
+﻿@model List<ShopBanDoDienTu_Nhom1.Models.Product>
+@{
+    ViewBag.Title = "Home Page";
+}
+@{
+    var brands = ViewBag.Brands as List<ShopBanDoDienTu_Nhom1.Models.Brand>;
+}
+<main>
+    <div class="row">
+        <div class="container">
+            <section class="welcome-text d-flex justify-content-center align-items-center flex-column mt-5">
+                <img src="~/Content/Images/lg.png" alt="Logo web"> <br>
+                <h4>Chào mừng đến với Shop Nhóm 1</h4>
+                <p>Trang web cung cấp các mặt hàng điện tử chất lượng cao đã được kiểm chứng</p>
+            </section>
+            <br />
+            <hr class="bold-hr">
+            <section>
+                <h2 class="text-center">Thương hiệu</h2> <br />
+                <div class="btn-group d-flex justify-content-center align-items-center">
+                    @if (brands != null)
+                    {
+                        foreach (var brand in brands)
+                        {
+                            <button type="button" class="btn btn-outline-light" style="margin-right: 10px; margin-bottom: 10px" onclick="location.href='@Url.Action("FilterByBrand", "Products", new { brandId = brand.BrandId })'">@brand.BrandName</button>
+                        }
+                    }
+                </div>
+            </section>
+            <br />
+            <hr class="bold-hr">
+            <section id="products">
+                <h2 class="text-center">Những sản phẩm</h2> <br />
+                <div id="productContainer" class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-3 mb-4">
+                            <div class="card">
+                                <img src="@item.Img" class="card-img-top" alt="@item.ProductName" style="height: 200px; object-fit: cover">
+                                <div class="card-body">
+                                    <h5 class="card-title">@Html.ActionLink(Html.DisplayFor(row => item.ProductName).ToString(), "Detail", new { id = item.ProductId, controller = "Home" })</h5>
+                                    <p class="card-text">Giá: @Html.DisplayFor(modelItem => item.Price)</p>
+                                    <p class="card-text">Loại mặt hàng: @Html.DisplayFor(modelItem => item.Category.CategoryName)</p>
+                                    <p class="card-text">Thương hiệu: @Html.DisplayFor(modelItem => item.Brand.BrandName)</p>
+                                    <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" class="add-to-cart-form">
+                                        <input type="hidden" name="id" value="@item.ProductId" />
+                                        <input type="number" name="quantity" value="1" min="1" class="quantity-btn" /> <br />
+                                        <input type="submit" value="Thêm vào giỏ hàng" class="btn btn-success mt-2" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="pagination-container d-flex justify-content-center"></div>
+            </section>
+            <br />
+            <hr class="bold-hr">
+            <section id="about" class="d-flex justify-content-center align-items-center flex-column ">
+                <div class="card mb-3 card-1">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="~/Content/Images/lg.png" class="img-fluid rounded-start" alt="logo web">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Về chúng tôi</h5>
+                                <p class="card-text">
+                                    Trang web bán hàng điện tử là một nền tảng trực tuyến cung cấp một loạt các sản phẩm điện tử đa dạng, từ điện thoại di động, máy tính bảng, laptop, đồng hồ
+                                    thông minh đến các thiết bị gia dụng thông minh và phụ kiện điện tử. Với sự tiện lợi của mua sắm trực tuyến, trang web này mang đến cho khách hàng một
+                                    trải nghiệm mua sắm thuận tiện và linh hoạt.
+                                </p>
+                                <p class="text-body-secondary">Nhóm 1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="d-flex justify-content-center align-items-center flex-column">
+                <form class="content-center">
+                    <h3>Liên hệ chúng tôi</h3>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Chúng tôi sẽ không chia sẽ email với bên thứ 3</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Họ Tên</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Mô tả</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Gửi</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</main>
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            var currentPage = 1;
+            var productsPerPage = 4;
+            var totalProducts = $("#productContainer .card").length;
+            var totalPages = Math.ceil(totalProducts / productsPerPage);
+
+            showPage(currentPage);
+
+            $(".pagination-container").on("click", ".page-link", function () {
+                currentPage = parseInt($(this).text());
+                showPage(currentPage);
+            });
+
+            function showPage(page) {
+                $("#productContainer .card").hide();
+                var startIndex = (page - 1) * productsPerPage;
+                var endIndex = startIndex + productsPerPage;
+                $("#productContainer .card").slice(startIndex, endIndex).show();
+                generatePagination();
+            }
+
+            function generatePagination() {
+                var pagination = '<ul class="pagination">';
+                for (var i = 1; i <= totalPages; i++) {
+                    if (i === currentPage) {
+                        pagination += '<li class="page-item active"><a class="page-link" href="#">' + i + '</a></li>';
+                    } else {
+                        pagination += '<li class="page-item"><a class="page-link" href="#">' + i + '</a></li>';
+                    }
+                }
+                pagination += '</ul>';
+                $(".pagination-container").html(pagination);
+            }
+
+            generatePagination();
+        });
+    </script>
+}
