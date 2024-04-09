@@ -549,7 +549,6 @@
     <Content Include="Views\Account\UserProfile.cshtml" />
     <Content Include="Views\Account\EditUserProfile.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
-    <Content Include="Views\Account\EmailSubmit.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
     <Content Include="Views\ShoppingCart\CartSummary.cshtml" />
     <Content Include="Views\ShoppingCart\RemoveFromCart.cshtml" />
