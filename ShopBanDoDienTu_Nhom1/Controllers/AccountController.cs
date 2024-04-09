@@ -12,6 +12,8 @@ using Microsoft.Owin.Security;
 using System.Net.Mail;
 using System.Net;
 using System.Security.Cryptography;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Diagnostics.Eventing.Reader;
 
 
 namespace ShopBanDoDienTu_Nhom1.Controllers
@@ -19,6 +21,7 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
     public class AccountController : Controller
     {
         // GET: Account
+        private string _emailAddress;
         public ActionResult Register()
         {
             return View();
@@ -31,7 +34,20 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 var AppDBContext = new AppDBContext();
                 var UserStore = new AppUserStore(AppDBContext);
                 var UserManager = new AppUserManager(UserStore);
+
+                // Kiểm tra xem tên đăng nhập đã tồn tại trong cơ sở dữ liệu chưa
+                if (UserManager.FindByName(rvm.Username) != null)
+                {
+                    ModelState.AddModelError("Username", "Tên đăng nhập đã tồn tại. Vui lòng chọn tên khác.");
+                    return View();
+                }else if (UserManager.FindByEmail(rvm.Email) != null)
+                {
+                    ModelState.AddModelError("Email", "Email đã tồn tại. Vui lòng chọn tên khác.");
+                    return View();
+                }
+
                 var PasswordHash = Crypto.HashPassword(rvm.Password);
+
                 var user = new AppUser()
                 {
                     Email = rvm.Email,
@@ -50,6 +66,39 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                     var authenManager = HttpContext.GetOwinContext().Authentication;
                     var userIdentity = UserManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
                     authenManager.SignIn(new AuthenticationProperties(), userIdentity);
+
+                    var fromAddress = new MailAddress("superchip3010@gmail.com");
+                    const string fromPassword = "nhzf ycrh hfcc xnmf";
+                    var toAddress = new MailAddress(rvm.Email);
+                    var smtp = new SmtpClient
+                    {
+                        Host = "smtp.gmail.com",
+                        Port = 587,
+                        EnableSsl = true,
+                        DeliveryMethod = SmtpDeliveryMethod.Network,
+                        UseDefaultCredentials = false,
+                        Credentials = new NetworkCredential(fromAddress.Address, fromPassword),
+                        Timeout = 20000
+                    };
+                    const string subject = "Đăng kí tài khoản "; 
+                    string body = "<p>Đăng kí thành công</p>";
+                    body += $"<p>Đã đăng kí thành công</p>";
+
+                    // Tạo đối tượng MailMessage với thông tin từ, tới, tiêu đề và nội dung của email
+                    using (var message = new MailMessage(fromAddress, toAddress)
+                    {
+                        Body = body,
+                        Subject = subject,
+                        IsBodyHtml = true
+                    })
+                    {
+                        smtp.Send(message);
+                    }
+
+                    ViewBag.SuccessMessage = "Một đường link đã được gửi đến email của bạn.";
+                    return RedirectToAction("Login", "Account");
+
+
                 }
                 return RedirectToAction("Index", "Home");
             }
@@ -90,6 +139,7 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
+
             }
             else
             {
@@ -349,6 +399,7 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 // Gửi thông báo lỗi nếu có lỗi xảy ra
                 ViewBag.ErrorMessage = ex.Message;
             }
+            TempData["ResetEmail"] = emailAddress;
             return RedirectToAction("Login", "Account");
 
         }
@@ -395,12 +446,11 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 ViewBag.ErrorMessage = "Token không hợp lệ hoặc đã hết hạn.";
                 return View("Error");
             }
-            user.ResetPasswordToken = null;
-            user.ResetPasswordTokenExpiration = null;
-            // Đặt lại mật khẩu mới cho người dùng
+
+            // Đặt lại mật khẩu mới cho người dùng và mã hóa
             var newPasswordHash = UserManager.PasswordHasher.HashPassword(rvm.NewPassword);
-            
-            // Cập nhật mật khẩu mới cho người dùng
+
+            // Cập nhật mật khẩu mới cho người dùng trong cơ sở dữ liệu
             user.PasswordHash = newPasswordHash;
             var result = UserManager.Update(user);
 
@@ -421,6 +471,49 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 return View("Error");
             }
         }
+
+
+
+
+        [HttpPost]
+        public ActionResult SubmitPass(string password1, string password2, ChangePasswordVM cvm, ResetPasswordVM rvm)
+        {
+            var AppDBContext = new AppDBContext();
+            var UserStore = new AppUserStore(AppDBContext);
+            var UserManager = new AppUserManager(UserStore);
+            var user = UserManager.FindByResetPasswordToken(rvm.Token);
+            _emailAddress = TempData["ResetEmail"] as string;
+           
+            try
+            {
+                // Thay đổi mật khẩu của người dùng
+                var result = UserManager.ChangePassword(user.Id, cvm.OldPassword, cvm.NewPassword);
+
+                if (result.Succeeded)
+                {
+                    // Đăng xuất người dùng để họ phải đăng nhập lại với mật khẩu mới
+                    var authenManager = HttpContext.GetOwinContext().Authentication;
+                    authenManager.SignOut();
+
+                    // Redirect đến trang đăng nhập với thông báo thành công
+                    TempData["SuccessMessage"] = "Đổi mật khẩu thành công. Vui lòng đăng nhập lại.";
+                    return RedirectToAction("Login", "Account");
+                }
+                else
+                {
+                    // Nếu có lỗi xảy ra trong quá trình đặt lại mật khẩu
+                    ViewBag.ErrorMessage = "Có một lỗi phát sinh khi đổi mật khẩu. Vui lòng thử lại sau.";
+                    return View("Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Có lỗi xảy ra khi thay đổi mật khẩu: " + ex.Message;
+            }
+            // Trả về view tương ứng
+            return View("User_form");
+        }
+
     }
 
 }
