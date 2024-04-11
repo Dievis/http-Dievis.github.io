@@ -31,7 +31,21 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 var AppDBContext = new AppDBContext();
                 var UserStore = new AppUserStore(AppDBContext);
                 var UserManager = new AppUserManager(UserStore);
+
+                // Kiểm tra xem tên đăng nhập đã tồn tại trong cơ sở dữ liệu chưa
+                if (UserManager.FindByName(rvm.Username) != null)
+                {
+                    ModelState.AddModelError("Username", "Tên đăng nhập đã tồn tại. Vui lòng chọn tên khác.");
+                    return View();
+                }
+                else if (UserManager.FindByEmail(rvm.Email) != null)
+                {
+                    ModelState.AddModelError("Email", "Email đã tồn tại. Vui lòng chọn tên khác.");
+                    return View();
+                }
+
                 var PasswordHash = Crypto.HashPassword(rvm.Password);
+
                 var user = new AppUser()
                 {
                     Email = rvm.Email,
@@ -50,6 +64,39 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                     var authenManager = HttpContext.GetOwinContext().Authentication;
                     var userIdentity = UserManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
                     authenManager.SignIn(new AuthenticationProperties(), userIdentity);
+
+                    var fromAddress = new MailAddress("superchip3010@gmail.com");
+                    const string fromPassword = "nhzf ycrh hfcc xnmf";
+                    var toAddress = new MailAddress(rvm.Email);
+                    var smtp = new SmtpClient
+                    {
+                        Host = "smtp.gmail.com",
+                        Port = 587,
+                        EnableSsl = true,
+                        DeliveryMethod = SmtpDeliveryMethod.Network,
+                        UseDefaultCredentials = false,
+                        Credentials = new NetworkCredential(fromAddress.Address, fromPassword),
+                        Timeout = 20000
+                    };
+                    const string subject = "Đăng kí tài khoản ";
+                    string body = "<p>Đăng kí thành công</p>";
+                    body += $"<p>Đã đăng kí thành công</p>";
+
+                    // Tạo đối tượng MailMessage với thông tin từ, tới, tiêu đề và nội dung của email
+                    using (var message = new MailMessage(fromAddress, toAddress)
+                    {
+                        Body = body,
+                        Subject = subject,
+                        IsBodyHtml = true
+                    })
+                    {
+                        smtp.Send(message);
+                    }
+
+                    ViewBag.SuccessMessage = "Một đường link đã được gửi đến email của bạn.";
+                    return RedirectToAction("Login", "Account");
+
+
                 }
                 return RedirectToAction("Index", "Home");
             }
@@ -60,6 +107,7 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
             }
 
         }
+
 
         public ActionResult Login()
         {

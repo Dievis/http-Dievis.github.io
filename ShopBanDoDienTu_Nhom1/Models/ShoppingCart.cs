@@ -55,6 +55,11 @@ namespace ShopBanDoDienTu_Nhom1.Models
             db.SaveChanges();
         }
 
+        // Thêm phương thức để tính tổng giá trị của giỏ hàng
+        public decimal GetTotal()
+        {
+            return CartItems.Sum(item => (item.Product.Price ?? 0m) * item.Quantity);
+        }
 
         public void RemoveItem(long productId)
         {

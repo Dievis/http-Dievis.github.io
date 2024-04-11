@@ -188,6 +188,7 @@
     <Compile Include="Areas\Manager\Controllers\UsersController.cs" />
     <Compile Include="Areas\Manager\ManagerAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
@@ -235,10 +236,6 @@
     <Compile Include="Migrations\202404040842155_AddShoppingCartAndCartItem.designer.cs">
       <DependentUpon>202404040842155_AddShoppingCartAndCartItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202404041535015_updateShoppingCart.cs" />
-    <Compile Include="Migrations\202404041535015_updateShoppingCart.designer.cs">
-      <DependentUpon>202404041535015_updateShoppingCart.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202404080909139_AddDescription.cs" />
     <Compile Include="Migrations\202404080909139_AddDescription.designer.cs">
       <DependentUpon>202404080909139_AddDescription.cs</DependentUpon>
@@ -247,11 +244,25 @@
     <Compile Include="Migrations\202404080924444_RemoveDescription.designer.cs">
       <DependentUpon>202404080924444_RemoveDescription.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404110437151_addOrderanddOrderDetail.cs" />
+    <Compile Include="Migrations\202404110437151_addOrderanddOrderDetail.Designer.cs">
+      <DependentUpon>202404110437151_addOrderanddOrderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404110508500_updateTable.cs" />
+    <Compile Include="Migrations\202404110508500_updateTable.Designer.cs">
+      <DependentUpon>202404110508500_updateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404110523116_addEmailFieldtOrdertable.cs" />
+    <Compile Include="Migrations\202404110523116_addEmailFieldtOrdertable.Designer.cs">
+      <DependentUpon>202404110523116_addEmailFieldtOrdertable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\MyDBContext.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ShoppingCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -561,6 +572,7 @@
     <Content Include="Views\Account\ChangePassword.cshtml" />
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Checkout\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="IdentityMigration\202404010719235_init.resx">
@@ -590,14 +602,20 @@
     <EmbeddedResource Include="Migrations\202404040842155_AddShoppingCartAndCartItem.resx">
       <DependentUpon>202404040842155_AddShoppingCartAndCartItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202404041535015_updateShoppingCart.resx">
-      <DependentUpon>202404041535015_updateShoppingCart.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404080909139_AddDescription.resx">
       <DependentUpon>202404080909139_AddDescription.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404080924444_RemoveDescription.resx">
       <DependentUpon>202404080924444_RemoveDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404110437151_addOrderanddOrderDetail.resx">
+      <DependentUpon>202404110437151_addOrderanddOrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404110508500_updateTable.resx">
+      <DependentUpon>202404110508500_updateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404110523116_addEmailFieldtOrdertable.resx">
+      <DependentUpon>202404110523116_addEmailFieldtOrdertable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

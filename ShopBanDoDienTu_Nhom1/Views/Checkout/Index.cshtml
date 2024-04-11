@@ -1,0 +1,63 @@
+﻿@model ShopBanDoDienTu_Nhom1.ViewModel.ShoppingCartVM
+@using Microsoft.AspNet.Identity
+@using Microsoft.AspNet.Identity.EntityFramework
+@{
+    ViewBag.Title = "Checkout";
+    var userManager = new UserManager<ShopBanDoDienTu_Nhom1.Identity.AppUser>(new UserStore<ShopBanDoDienTu_Nhom1.Identity.AppUser>(new ShopBanDoDienTu_Nhom1.Models.MyDBContext()));
+    var currentUser = userManager.FindById(User.Identity.GetUserId());
+}
+
+<h2>Checkout</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price</td>
+                        <td>@item.TotalPrice</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="text-end">
+            <h4>Total: @Model.CartTotal</h4>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="mb-3">
+        <h2>Email:</h2>
+        <p style="color: red; font-size: 20px">@currentUser.Email</p>
+    </div>
+    <h2>Shipping Address:</h2>
+    <div class="mb-3">
+        @Html.TextBoxFor(m => m.ShippingAddress, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ShippingAddress, "", new { @class = "text-danger" })
+    </div>
+    <h2>Notes:</h2>
+    <div class="mb-3">
+        @Html.TextAreaFor(m => m.Notes, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Notes, "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @using (Html.BeginForm("CompleteOrder", "Checkout"))
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-primary">Complete Order</button>
+        }
+    </div>
+</div>

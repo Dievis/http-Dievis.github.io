@@ -9,5 +9,7 @@ namespace ShopBanDoDienTu_Nhom1.ViewModel
     {
         public List<CartItemVM> CartItems { get; set; }
         public decimal CartTotal { get; set; }
+        public string Notes { get; set; }
+        public string ShippingAddress { get; set; }
     }
 }

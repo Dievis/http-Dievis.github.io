@@ -74,7 +74,6 @@ C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\Antl
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.csproj.AssemblyReference.cache
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.csproj.CoreCompileInputs.cache
-C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.csproj.CopyComplete
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.dll
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.pdb
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\EntityFramework.dll
@@ -116,10 +115,13 @@ C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debu
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.IdentityMigration.removeIdandPassword.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.addImg.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.AddShoppingCartAndCartItem.resources
-C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.updateShoppingCart.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\PagedList.dll
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\bin\PagedList.xml
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.AddDescription.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.RemoveDescription.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.IdentityMigration.AddResetPasswordTokenAndFindByResetPasswordToken.resources
 C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.IdentityMigration.UpdateFindByResetPasswordToken.resources
+C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanD.24878D98.Up2Date
+C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.addOrderanddOrderDetail.resources
+C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.updateTable.resources
+C:\Users\dattp\source\repos\ShopBanDoDienTu_Nhom1\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.addEmailFieldtOrdertable.resources

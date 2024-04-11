@@ -1,0 +1,810 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\identity\\appuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\identity\\appuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\identity\\appusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\identity\\appusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\identity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\identity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\migrations\\202404110523116_addemailfieldtordertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\migrations\\202404110523116_addemailfieldtordertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DATTP_SOURCE_REPOS_SHOPBANDODIENTU_NHOM1_SHOPBANDODIENTU_NHOM1_APP_DATA_MYDB.MDF/True/SqlTable/dbo.OrderDetails.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DATTP_SOURCE_REPOS_SHOPBANDODIENTU_NHOM1_SHOPBANDODIENTU_NHOM1_APP_DATA_MYDB.MDF/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\viewmodel\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\viewmodel\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\migrations\\202404110437151_addorderanddorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\migrations\\202404110437151_addorderanddorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|c:\\users\\dattp\\source\\repos\\shopbandodientu_nhom1\\shopbandodientu_nhom1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\migrations\\202404080909139_adddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\migrations\\202404080909139_adddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\migrations\\202404080924444_removedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\migrations\\202404080924444_removedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\viewmodel\\userprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\viewmodel\\userprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\account\\edituserprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\account\\edituserprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\viewmodel\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\viewmodel\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\account\\emailsubmit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\account\\emailsubmit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\identitymigration\\202404081054385_updatefindbyresetpasswordtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\identitymigration\\202404081054385_updatefindbyresetpasswordtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\views\\products\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\views\\products\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\shopbandodientu_nhom1\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C481CBC3-C71E-4B03-8DD8-C01BB7C83E01}|ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1.csproj|solutionrelative:shopbandodientu_nhom1\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Content\\Site.css",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Content\\Site.css",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Content\\Site.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-06T14:16:54.004Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T16:33:33.847Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwLoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:26:49.241Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T02:57:03.479Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T05:44:33.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T05:44:11.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:09:25.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:42:38.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T02:55:07.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T05:10:24.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:21:55.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\Order.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:07:35.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppUserStore.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppUserStore.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Identity\\AppUserStore.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppUserStore.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Identity\\AppUserStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:05:23.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppUserManager.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppUserManager.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Identity\\AppUserManager.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppUserManager.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Identity\\AppUserManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:32:09.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppUser.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Identity\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:04:41.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Identity\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Identity\\AppDBContext.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Identity\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:05:18.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "202404110523116_addEmailFieldtOrdertable.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404110523116_addEmailFieldtOrdertable.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Migrations\\202404110523116_addEmailFieldtOrdertable.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404110523116_addEmailFieldtOrdertable.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Migrations\\202404110523116_addEmailFieldtOrdertable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:23:17.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.OrderDetails [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DATTP_SOURCE_REPOS_SHOPBANDODIENTU_NHOM1_SHOPBANDODIENTU_NHOM1_APP_DATA_MYDB.MDF/True/SqlTable/dbo.OrderDetails.sql",
+              "ToolTip": "dbo.OrderDetails [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-11T05:19:35.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.Orders [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DATTP_SOURCE_REPOS_SHOPBANDODIENTU_NHOM1_SHOPBANDODIENTU_NHOM1_APP_DATA_MYDB.MDF/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "dbo.Orders [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-11T05:19:30.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T05:14:03.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShoppingCartVM.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\ViewModel\\ShoppingCartVM.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\ViewModel\\ShoppingCartVM.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\ViewModel\\ShoppingCartVM.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\ViewModel\\ShoppingCartVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:10:55.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:05:37.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\CartItem.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:05:23.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "202404110437151_addOrderanddOrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404110437151_addOrderanddOrderDetail.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Migrations\\202404110437151_addOrderanddOrderDetail.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404110437151_addOrderanddOrderDetail.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Migrations\\202404110437151_addOrderanddOrderDetail.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:37:21.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:42:38.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Startup.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Startup.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Startup.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:29:37.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "202404080909139_AddDescription.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404080909139_AddDescription.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Migrations\\202404080909139_AddDescription.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404080909139_AddDescription.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Migrations\\202404080909139_AddDescription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:11:35.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "202404080924444_RemoveDescription.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404080924444_RemoveDescription.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Migrations\\202404080924444_RemoveDescription.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Migrations\\202404080924444_RemoveDescription.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Migrations\\202404080924444_RemoveDescription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:24:47.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResetPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T10:59:50.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T10:55:34.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserProfileVM.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\ViewModel\\UserProfileVM.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\ViewModel\\UserProfileVM.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\ViewModel\\UserProfileVM.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\ViewModel\\UserProfileVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T13:15:23.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditUserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\EditUserProfile.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Account\\EditUserProfile.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\EditUserProfile.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Account\\EditUserProfile.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T13:14:43.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T10:56:49.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ResetPasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\ViewModel\\ResetPasswordVM.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\ViewModel\\ResetPasswordVM.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\ViewModel\\ResetPasswordVM.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\ViewModel\\ResetPasswordVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:02:13.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T11:00:17.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T11:00:55.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmailSubmit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\EmailSubmit.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Account\\EmailSubmit.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Account\\EmailSubmit.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Account\\EmailSubmit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T10:56:19.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "202404081054385_UpdateFindByResetPasswordToken.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\IdentityMigration\\202404081054385_UpdateFindByResetPasswordToken.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\IdentityMigration\\202404081054385_UpdateFindByResetPasswordToken.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\IdentityMigration\\202404081054385_UpdateFindByResetPasswordToken.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\IdentityMigration\\202404081054385_UpdateFindByResetPasswordToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:54:43.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Models\\Product.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:23:52.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:19:28.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T09:17:33.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T09:17:10.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Views\\Home\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Views\\Home\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T09:13:54.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Detail.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Detail.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T09:16:49.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T09:15:17.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dattp\\source\\repos\\ShopBanDoDienTu_Nhom1\\ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ShopBanDoDienTu_Nhom1\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T09:14:59.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

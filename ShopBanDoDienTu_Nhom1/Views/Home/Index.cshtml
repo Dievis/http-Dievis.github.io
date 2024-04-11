@@ -44,7 +44,6 @@
                                     <p class="card-text">Thương hiệu: @Html.DisplayFor(modelItem => item.Brand.BrandName)</p>
                                     <form action="@Url.Action("AddToCart", "ShoppingCart")" method="post" class="add-to-cart-form">
                                         <input type="hidden" name="id" value="@item.ProductId" />
-                                        <input type="number" name="quantity" value="1" min="1" class="quantity-btn" /> <br />
                                         <input type="submit" value="Thêm vào giỏ hàng" class="btn btn-success mt-2" />
                                     </form>
                                 </div>
