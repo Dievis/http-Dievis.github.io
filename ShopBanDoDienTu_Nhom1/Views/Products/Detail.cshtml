@@ -4,6 +4,7 @@
     ViewBag.Title = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div class="container">
     <h2 class="text-center">Chi tiết sản phẩm</h2>
 
@@ -17,14 +18,6 @@
             <p class="card-text">Ngày nhập hàng: @Html.DisplayFor(model => model.DateOfPurchase)</p>
             <p class="card-text">Tình trạng sẵn có: @Html.DisplayFor(model => model.AvailabilityStatus)</p>
             <p class="card-text">Hoạt động: @Html.DisplayFor(model => model.Active)</p>
-
-            <div class="socials-share">
-                <a class="bg-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:44381/Products/Detail" target="_blank"><span class="fa fa-facebook"></span> Share</a>
-                <a class="bg-twitter" href="" target="_blank"><span class="fa fa-twitter"></span> Tweet</a>
-                <a class="bg-google-plus" href="" target="_blank"><span class="fa fa-google-plus"></span> Plus</a>
-                <a class="bg-pinterest" href="" target="_blank"><span class="fa fa-pinterest"></span> Pin</a>
-                <a class="bg-email" href="" target="_blank"><span class="fa fa-envelope"></span> Gmail</a>
-            </div>
         </div>
         <p class="text-center">
             @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ProductId }, new { @class = "btn btn-warning" }) |
