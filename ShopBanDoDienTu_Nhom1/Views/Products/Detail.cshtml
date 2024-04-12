@@ -4,7 +4,7 @@
     ViewBag.Title = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="container">
     <h2 class="text-center">Chi tiết sản phẩm</h2>
 
@@ -18,6 +18,15 @@
             <p class="card-text">Ngày nhập hàng: @Html.DisplayFor(model => model.DateOfPurchase)</p>
             <p class="card-text">Tình trạng sẵn có: @Html.DisplayFor(model => model.AvailabilityStatus)</p>
             <p class="card-text">Hoạt động: @Html.DisplayFor(model => model.Active)</p>
+
+            <div class="socials-share">
+                <a class="bg-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.inithtml.com/" target="_blank"><span class="fa fa-facebook"></span> Share</a>
+                <a class="bg-twitter" href="https://twitter.com/share?text=&url=" target="_blank"><span class="fa fa-twitter"></span> Tweet</a>
+                <a class="bg-google-plus" href="https://plus.google.com/share?url=https://www.inithtml.com/" target="_blank"><span class="fa fa-google-plus"></span> Plus</a>
+                <a class="bg-pinterest" href="https://www.pinterest.com/pin/create/button/?url=&media=&description=" target="_blank"><span class="fa fa-pinterest"></span> Pin</a>
+                <a class="bg-email" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to&su=&body=" target="_blank"><span class="fa fa-envelope"></span> Gmail</a>
+            </div>
+
         </div>
         <p class="text-center">
             @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ProductId }, new { @class = "btn btn-warning" }) |
