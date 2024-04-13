@@ -170,7 +170,7 @@ footer p {
 }
 
 .home-body{
-    background: url(Images/BG.jpg);
+    background: url(Images/BG6.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -380,5 +380,6 @@ label {
     list-style: none;
 }
 
-.dropdown-item {
+ul {
+    font-family: "Lobster", cursive;
 }

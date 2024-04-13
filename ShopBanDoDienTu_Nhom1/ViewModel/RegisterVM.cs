@@ -38,5 +38,8 @@ namespace ShopBanDoDienTu_Nhom1.ViewModel
 
         [Display(Name = "Thành phố")]
         public string City { get; set; }
+
+        [Display(Name = "Lý do")]
+        public string Reason { get; set; }
     }
 }

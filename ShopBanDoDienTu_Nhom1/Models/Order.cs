@@ -16,7 +16,8 @@ namespace ShopBanDoDienTu_Nhom1.Models
         public string UserId { get; set; } // Khóa ngoại tham chiếu đến Id của người dùng
 
         public string Email { get; set; }
-        
+
+        [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy}")]
         public DateTime OrderDate { get; set; }
         
         public decimal TotalPrice { get; set; }

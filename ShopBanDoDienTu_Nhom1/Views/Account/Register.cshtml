@@ -6,7 +6,7 @@
 
 <h2 class="text-center">Đăng ký - Shop Nhóm 1</h2>
 
-<div class="card mx-auto" style="max-width: 400px;">
+<div class="card mx-auto" style="max-width: 327px; background: rgb(0, 0, 0, 0.5)">
     <div class="card-body">
         @using (Html.BeginForm("Register", "Account", FormMethod.Post))
         {
@@ -31,6 +31,8 @@
                     @Html.PasswordFor(model => model.ConfirmPassword, new { placeholder = "Confirm Password", @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
                 </div>
+
+
             </div>
             <br>
             <div class="text-center">

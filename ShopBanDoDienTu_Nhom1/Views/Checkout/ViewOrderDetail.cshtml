@@ -1,0 +1,21 @@
+﻿@model ShopBanDoDienTu_Nhom1.Models.OrderDetail
+
+@{
+    ViewBag.Title = "Order Detail";
+}
+
+<h2>Order Detail</h2>
+
+<div>
+    <p><strong>Order Detail ID:</strong> @Model.OrderDetailId</p>
+    <p><strong>Order ID:</strong> @Model.OrderId</p>
+    <p><strong>Product ID:</strong> @Model.ProductId</p>
+    <p><strong>Quantity:</strong> @Model.Quantity</p>
+    <p><strong>Unit Price:</strong> @Model.UnitPrice</p>
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Back to Home</a>
+    <!-- Button to export order to Excel -->
+    <a href="@Url.Action("ExportOrderToExcel", "Excel", new { orderDetailId = Model.OrderDetailId })" class="btn btn-success">In hóa đơn</a>
+</div>

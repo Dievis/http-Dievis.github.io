@@ -10,6 +10,9 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
     public class ProductsController : Controller
     {
         // GET: Products
+        private MyDBContext db = new MyDBContext();
+
+
         public ActionResult Index(int page = 1)
         {
             MyDBContext db = new MyDBContext();
@@ -44,5 +47,25 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
             ViewBag.Brands = brands;
             return View(brands);
         }
+
+        public ActionResult ProductsByCategory(long categoryId)
+        {
+            // Retrieve products by category from the database
+            List<Product> productsByCategory = db.Products.Where(p => p.CategoryId == categoryId).ToList();
+
+            // Pass the list of products to the view
+            return View(productsByCategory);
+        }
+
+
+        public ActionResult FilterByCategoryList()
+        {
+            MyDBContext db = new MyDBContext();
+            List<Category> categories = db.Categories.ToList();
+            ViewBag.Categories = categories;
+            return View();
+        }
+
+
     }
 }

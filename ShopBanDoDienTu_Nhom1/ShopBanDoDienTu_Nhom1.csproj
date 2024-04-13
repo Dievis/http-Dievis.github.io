@@ -46,11 +46,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CommonMark, Version=0.1.0.0, Culture=neutral, PublicKeyToken=001ef8810438905d, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonMark.NET.0.15.1\lib\net45\CommonMark.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=7.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.7.1.1\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.6.1.1\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.System.Drawing.6.1.1\lib\net462\EPPlus.System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.4\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
@@ -71,6 +83,9 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Owin, Version=4.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.4.2.2\lib\net45\Microsoft.Owin.dll</HintPath>
     </Reference>
@@ -86,16 +101,34 @@
     <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
@@ -154,9 +187,6 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -176,11 +206,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\BrandsController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductsController.cs" />
     <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
+    <Compile Include="Areas\Manager\Controllers\AccountController.cs" />
     <Compile Include="Areas\Manager\Controllers\BrandsController.cs" />
     <Compile Include="Areas\Manager\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Manager\Controllers\HomeController.cs" />
@@ -189,6 +221,7 @@
     <Compile Include="Areas\Manager\ManagerAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
+    <Compile Include="Controllers\ExcelController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
@@ -368,60 +401,6 @@
     <Content Include="CKEditor\plugins\link\dialogs\link.js" />
     <Content Include="CKEditor\plugins\link\images\anchor.png" />
     <Content Include="CKEditor\plugins\link\images\hidpi\anchor.png" />
-    <Content Include="CKEditor\samples\css\samples.css" />
-    <Content Include="CKEditor\samples\img\github-top.png" />
-    <Content Include="CKEditor\samples\img\header-bg.png" />
-    <Content Include="CKEditor\samples\img\header-separator.png" />
-    <Content Include="CKEditor\samples\img\logo.png" />
-    <Content Include="CKEditor\samples\img\logo.svg" />
-    <Content Include="CKEditor\samples\img\navigation-tip.png" />
-    <Content Include="CKEditor\samples\index.html" />
-    <Content Include="CKEditor\samples\js\sample.js" />
-    <Content Include="CKEditor\samples\js\sf.js" />
-    <Content Include="CKEditor\samples\old\ajax.html" />
-    <Content Include="CKEditor\samples\old\api.html" />
-    <Content Include="CKEditor\samples\old\appendto.html" />
-    <Content Include="CKEditor\samples\old\assets\inlineall\logo.png" />
-    <Content Include="CKEditor\samples\old\assets\outputxhtml\outputxhtml.css" />
-    <Content Include="CKEditor\samples\old\assets\posteddata.php" />
-    <Content Include="CKEditor\samples\old\assets\sample.jpg" />
-    <Content Include="CKEditor\samples\old\assets\uilanguages\languages.js" />
-    <Content Include="CKEditor\samples\old\datafiltering.html" />
-    <Content Include="CKEditor\samples\old\dialog\assets\my_dialog.js" />
-    <Content Include="CKEditor\samples\old\dialog\dialog.html" />
-    <Content Include="CKEditor\samples\old\divreplace.html" />
-    <Content Include="CKEditor\samples\old\enterkey\enterkey.html" />
-    <Content Include="CKEditor\samples\old\index.html" />
-    <Content Include="CKEditor\samples\old\inlineall.html" />
-    <Content Include="CKEditor\samples\old\inlinebycode.html" />
-    <Content Include="CKEditor\samples\old\inlinetextarea.html" />
-    <Content Include="CKEditor\samples\old\jquery.html" />
-    <Content Include="CKEditor\samples\old\readonly.html" />
-    <Content Include="CKEditor\samples\old\replacebyclass.html" />
-    <Content Include="CKEditor\samples\old\replacebycode.html" />
-    <Content Include="CKEditor\samples\old\sample.css" />
-    <Content Include="CKEditor\samples\old\sample.js" />
-    <Content Include="CKEditor\samples\old\sample_posteddata.php" />
-    <Content Include="CKEditor\samples\old\tabindex.html" />
-    <Content Include="CKEditor\samples\old\toolbar\toolbar.html" />
-    <Content Include="CKEditor\samples\old\uicolor.html" />
-    <Content Include="CKEditor\samples\old\uilanguages.html" />
-    <Content Include="CKEditor\samples\old\wysiwygarea\fullpage.html" />
-    <Content Include="CKEditor\samples\old\xhtmlstyle.html" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\css\fontello.css" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\font\fontello.svg" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\font\LICENSE.txt" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\index.html" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\js\toolbarmodifier.js" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\neo.css" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" />
     <Content Include="CKEditor\skins\moono-lisa\dialog.css" />
     <Content Include="CKEditor\skins\moono-lisa\dialog_ie.css" />
     <Content Include="CKEditor\skins\moono-lisa\dialog_ie8.css" />
@@ -463,8 +442,12 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Images\BG2.jpg" />
     <Content Include="Content\Images\BG.jpg" />
+    <Content Include="Content\Images\BG3.jpg" />
+    <Content Include="Content\Images\BG4.jpg" />
     <Content Include="Content\Images\BG5.jpg" />
+    <Content Include="Content\Images\BG6.jpg" />
     <Content Include="Content\Images\lg.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -517,16 +500,13 @@
     <Content Include="Areas\Manager\Views\Categories\Create.cshtml" />
     <Content Include="Areas\Manager\Views\Categories\Edit.cshtml" />
     <Content Include="CKEditor\.circleci\config.yml" />
-    <Content Include="CKEditor\CHANGES.md" />
-    <Content Include="CKEditor\LICENSE.md" />
-    <Content Include="CKEditor\README.md" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\font\config.json" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\font\fontello.eot" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\font\fontello.ttf" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\font\fontello.woff" />
-    <Content Include="CKEditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
-    <Content Include="CKEditor\SECURITY.md" />
     <Content Include="CKEditor\skins\moono-lisa\readme.md" />
+    <Content Include="Areas\Admin\Views\Account\UserProfile.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\ChangePassword.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\EditUserProfile.cshtml" />
+    <Content Include="Areas\Manager\Views\Account\ChangePassword.cshtml" />
+    <Content Include="Areas\Manager\Views\Account\EditUserProfile.cshtml" />
+    <Content Include="Areas\Manager\Views\Account\UserProfile.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <None Include="Scripts\jquery-3.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
@@ -573,6 +553,11 @@
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Checkout\Index.cshtml" />
+    <Content Include="Views\Checkout\CompleteOrder.cshtml" />
+    <Content Include="Views\Products\ProductsByCategory.cshtml" />
+    <Content Include="Views\Products\FilterByCategoryList.cshtml" />
+    <Content Include="Views\Checkout\ViewOrder.cshtml" />
+    <Content Include="Views\Checkout\ViewOrderDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="IdentityMigration\202404010719235_init.resx">
@@ -648,6 +633,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Views\Excel\" />
+    <Folder Include="Views\ExportController\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

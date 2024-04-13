@@ -1,16 +1,20 @@
 ﻿@model ShopBanDoDienTu_Nhom1.ViewModel.ShoppingCartVM
-@using Microsoft.AspNet.Identity
-@using Microsoft.AspNet.Identity.EntityFramework
+
 @{
-    ViewBag.Title = "Checkout";
-    var userManager = new UserManager<ShopBanDoDienTu_Nhom1.Identity.AppUser>(new UserStore<ShopBanDoDienTu_Nhom1.Identity.AppUser>(new ShopBanDoDienTu_Nhom1.Models.MyDBContext()));
-    var currentUser = userManager.FindById(User.Identity.GetUserId());
+    ViewBag.Title = "Thanh toán";
 }
 
-<h2>Checkout</h2>
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @Html.Raw(TempData["ErrorMessage"])
+    </div>
+}
 
-<div class="row">
-    <div class="col-md-8">
+<h2>Thanh toán</h2>
+
+<div>
+    <div>
         <table class="table">
             <thead>
                 <tr>
@@ -32,32 +36,41 @@
                 }
             </tbody>
         </table>
-        <div class="text-end">
-            <h4>Total: @Model.CartTotal</h4>
+        <div>
+            <strong>Total: </strong>@Model.CartTotal
         </div>
     </div>
 </div>
-<div class="col-md-4">
-    <div class="mb-3">
-        <h2>Email:</h2>
-        <p style="color: red; font-size: 20px">@currentUser.Email</p>
-    </div>
-    <h2>Shipping Address:</h2>
-    <div class="mb-3">
-        @Html.TextBoxFor(m => m.ShippingAddress, new { @class = "form-control" })
-        @Html.ValidationMessageFor(m => m.ShippingAddress, "", new { @class = "text-danger" })
-    </div>
-    <h2>Notes:</h2>
-    <div class="mb-3">
-        @Html.TextAreaFor(m => m.Notes, new { @class = "form-control" })
-        @Html.ValidationMessageFor(m => m.Notes, "", new { @class = "text-danger" })
-    </div>
 
+<hr />
+
+<div>
+    <h2>Thông tin người gửi</h2>
     <div>
-        @using (Html.BeginForm("CompleteOrder", "Checkout"))
+        @using (Html.BeginForm("CompleteOrder", "Checkout", FormMethod.Post))
+
         {
             @Html.AntiForgeryToken()
-            <button type="submit" class="btn btn-primary">Complete Order</button>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ShippingAddress)
+                @Html.TextBoxFor(model => model.ShippingAddress, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ShippingAddress, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Notes)
+                @Html.TextAreaFor(model => model.Notes, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Notes, "", new { @class = "text-danger" })
+            </div>
+
+            <button type="submit" class="btn btn-warning">Hoàn tất thanh toán</button>
         }
     </div>
 </div>

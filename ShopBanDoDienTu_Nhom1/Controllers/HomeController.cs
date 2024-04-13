@@ -12,6 +12,12 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
         private MyDBContext db = new MyDBContext();
         public ActionResult Index()
         {
+
+            // Truy vấn danh sách các loại mặt hàng từ cơ sở dữ liệu
+            var categories = db.Categories.ToList();
+
+            // Truyền danh sách các loại mặt hàng vào ViewBag.Categories
+            ViewBag.Categories = categories;
             // Truy vấn danh sách các brand từ cơ sở dữ liệu
             List<Brand> brands = db.Brands.ToList();
 
@@ -24,6 +30,9 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
             // Trả về view Index với danh sách các sản phẩm
             return View(products);
         }
+
+        
+
 
         public ActionResult Detail(int id)
         {

@@ -1,0 +1,23 @@
+﻿@model ShopBanDoDienTu_Nhom1.Models.Order
+
+<h2>Order Details</h2>
+
+<p>Order ID: @Model.OrderId</p>
+<p>Order Date: @Model.OrderDate</p>
+<p>Total Price: @Model.TotalPrice</p>
+
+<h3>Order Items</h3>
+
+@foreach (var detail in ViewBag.OrderDetails)
+{
+    <p>Product: @detail.Product.ProductName | Quantity: @detail.Quantity | Unit Price: @detail.UnitPrice</p>
+}
+
+<!-- Button to export to Excel -->
+@if (ViewBag.ShowExportButton)
+{
+    <div>
+        <a href="@Url.Action("ExportToExcel", "Checkout", new { orderId = ViewBag.Order.OrderId })" class="btn btn-success">Export to Excel</a>
+    </div>
+}
+

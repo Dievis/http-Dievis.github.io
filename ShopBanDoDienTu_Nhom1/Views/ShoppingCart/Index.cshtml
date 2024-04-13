@@ -1,5 +1,9 @@
 ﻿@model ShopBanDoDienTu_Nhom1.ViewModel.ShoppingCartVM
 
+@{
+    ViewBag.Title = "Giỏ hàng";
+}
+
 <h2>Giỏ hàng</h2>
 
 <table class="table">
@@ -31,9 +35,9 @@
     }
 </table>
 
-<h3>Tổng cộng: @Model.CartTotal</h3>
-
-<a href="@Url.Action("ClearCart", "ShoppingCart")" class="btn btn-outline-danger">Xóa giỏ hàng</a>
-<a href="@Url.Action("Index", "Checkout")" class="btn btn-outline-warning">Thanh toán</a>
-
-
+@if (Model.CartItems.Any())
+{
+    <h3>Tổng cộng: @Model.CartTotal</h3>
+    <a href="@Url.Action("ClearCart", "ShoppingCart")" class="btn btn-outline-danger">Xóa giỏ hàng</a>
+    <a href="@Url.Action("Index", "Checkout")" class="btn btn-outline-warning">Thanh toán</a>
+}

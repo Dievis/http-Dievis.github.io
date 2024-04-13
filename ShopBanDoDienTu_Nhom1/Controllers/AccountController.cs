@@ -51,10 +51,6 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                     Email = rvm.Email,
                     UserName = rvm.Username,
                     PasswordHash = PasswordHash,
-                    City = rvm.City,
-                    Birthday = rvm.DateOfBirth,
-                    Address = rvm.Address,
-                    PhoneNumber = rvm.Mobile
                 };
                 IdentityResult identityResult = UserManager.Create(user);
                 if (identityResult.Succeeded)
@@ -107,7 +103,6 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
             }
 
         }
-
 
         public ActionResult Login()
         {

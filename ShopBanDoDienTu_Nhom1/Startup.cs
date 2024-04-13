@@ -44,7 +44,7 @@ namespace ShopBanDoDienTu_Nhom1
                 var user = new AppUser();
                 user.UserName = "admin";
                 user.Email = "admin@gmail.com";
-                string userPwd = "admin123";
+                string userPwd = "123";
 
                 var chkUser = userManager.Create(user, userPwd);
                 if (chkUser.Succeeded)
