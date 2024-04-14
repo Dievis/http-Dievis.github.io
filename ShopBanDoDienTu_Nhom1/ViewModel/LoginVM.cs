@@ -13,5 +13,7 @@ namespace ShopBanDoDienTu_Nhom1.ViewModel
 
         [Required(ErrorMessage = "Không được để trống")]
         public string Password { get; set; }
+
+        public string captcha { get; set; }
     }
 }

@@ -248,3 +248,17 @@ D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_
 D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanD.24878D98.Up2Date
 D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.dll
 D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.pdb
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\en-US\ShopBanDoDienTu_Nhom1.resources.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\vi-VN\ShopBanDoDienTu_Nhom1.resources.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Resources.Resource.en-US.resources
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Resources.Resource.vi-VN.resources
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\en-US\ShopBanDoDienTu_Nhom1.resources.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\vi-VN\ShopBanDoDienTu_Nhom1.resources.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\obj\Debug\ShopBanDoDienTu_Nhom1.Migrations.blabla.resources
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Recaptcha.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Recaptcha.Web.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Recaptcha.pdb
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Microsoft.Owin.Security.Google.dll
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DA_Web\http-Dievis.github.io\ShopBanDoDienTu_Nhom1\bin\Microsoft.Owin.Security.Google.xml

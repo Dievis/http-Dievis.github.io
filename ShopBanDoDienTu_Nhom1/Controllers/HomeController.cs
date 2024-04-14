@@ -35,5 +35,7 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
             }
             return View(product);
         }
+
+
     }
 }

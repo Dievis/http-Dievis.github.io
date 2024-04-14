@@ -14,6 +14,21 @@ namespace ShopBanDoDienTu_Nhom1
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+               name: "Trangchu",
+               url: "trang-dang-nhap",
+               defaults: new { controller = "Account", action = "Login",},
+               namespaces: new[] { "ShopBanDoDienTu_Nhom1.Controllers" }
+           );
+
+            routes.MapRoute(
+              name: "QuanTri",
+              url: "QuanTri",
+              defaults: new { controller = "Home", action = "Index", },
+              namespaces: new[] { "ShopBanDoDienTu_Nhom1.Controllers" }
+          );
+
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },

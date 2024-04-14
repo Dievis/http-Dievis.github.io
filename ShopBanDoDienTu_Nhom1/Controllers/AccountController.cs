@@ -14,6 +14,11 @@ using System.Net;
 using System.Security.Cryptography;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Diagnostics.Eventing.Reader;
+using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using System.IO;
+using Microsoft.AspNet.Identity.Owin;
+using Recaptcha.Web.Mvc;
 
 
 namespace ShopBanDoDienTu_Nhom1.Controllers
@@ -114,10 +119,34 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
         {
             return View();
         }
-
         [HttpPost]
-        public ActionResult Login(LoginVM lvm)
+        public async Task<ActionResult> Login(LoginVM lvm)
         {
+            if (string.IsNullOrEmpty(lvm.captcha))
+            {
+                ModelState.AddModelError("Captcha", "Captcha không thể trống.");
+                return View();
+            }
+            else
+            {
+                // Xác minh reCAPTCHA
+                var recaptchaHelper = this.GetRecaptchaVerificationHelper();
+                if (string.IsNullOrEmpty(recaptchaHelper.Response))
+                {
+                    ModelState.AddModelError("Captcha", "Captcha không thể trống.");
+                    return View();
+                }
+                else
+                {
+                    var recaptchaResult = recaptchaHelper.VerifyRecaptchaResponse();
+                    if (!recaptchaResult.Success)
+                    {
+                        ModelState.AddModelError("Captcha", "Xác thực CAPTCHA không thành công.");
+                        return View();
+                    }
+                }
+            }
+
             var AppDBContext = new AppDBContext();
             var UserStore = new AppUserStore(AppDBContext);
             var UserManager = new AppUserManager(UserStore);
@@ -131,7 +160,7 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 {
                     return RedirectToAction("Index", "Home", new { area = "Admin" });
                 }
-                else if (UserManager.IsInRole(user.Id, "Manager")) 
+                else if (UserManager.IsInRole(user.Id, "Manager"))
                 {
                     return RedirectToAction("Index", "Home", new { area = "Manager" });
                 }
@@ -147,6 +176,8 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 return View();
             }
         }
+    
+
 
         public ActionResult Logout()
         {
@@ -446,7 +477,6 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
                 ViewBag.ErrorMessage = "Token không hợp lệ hoặc đã hết hạn.";
                 return View("Error");
             }
-
             // Đặt lại mật khẩu mới cho người dùng và mã hóa
             var newPasswordHash = UserManager.PasswordHasher.HashPassword(rvm.NewPassword);
 
@@ -473,46 +503,53 @@ namespace ShopBanDoDienTu_Nhom1.Controllers
         }
 
 
-
-
         [HttpPost]
-        public ActionResult SubmitPass(string password1, string password2, ChangePasswordVM cvm, ResetPasswordVM rvm)
+        public async Task<ActionResult> SubmitPass(ResetPasswordVM rvm)
         {
-            var AppDBContext = new AppDBContext();
-            var UserStore = new AppUserStore(AppDBContext);
-            var UserManager = new AppUserManager(UserStore);
-            var user = UserManager.FindByResetPasswordToken(rvm.Token);
-            _emailAddress = TempData["ResetEmail"] as string;
-           
+            string emailAddress = ViewBag.EmailAddress as string;
+
             try
             {
-                // Thay đổi mật khẩu của người dùng
-                var result = UserManager.ChangePassword(user.Id, cvm.OldPassword, cvm.NewPassword);
+                var AppDBContext = new AppDBContext();
+                var UserStore = new AppUserStore(AppDBContext);
+                var UserManager = new AppUserManager(UserStore);
+
+                // Truy xuất người dùng theo địa chỉ email
+                var user = await UserManager.FindByEmailAsync(emailAddress);
+
+                if (user == null)
+                {
+                    ViewBag.ErrorMessage = "User with provided email address does not exist.";
+                    return View("Error");
+                }
+
+                // Mã hóa mật khẩu mới
+                var newPasswordHash = UserManager.PasswordHasher.HashPassword(rvm.NewPassword);
+
+                // Cập nhật mật khẩu mới cho người dùng
+                user.PasswordHash = newPasswordHash;
+                var result = await UserManager.UpdateAsync(user);
 
                 if (result.Succeeded)
                 {
-                    // Đăng xuất người dùng để họ phải đăng nhập lại với mật khẩu mới
-                    var authenManager = HttpContext.GetOwinContext().Authentication;
-                    authenManager.SignOut();
-
-                    // Redirect đến trang đăng nhập với thông báo thành công
-                    TempData["SuccessMessage"] = "Đổi mật khẩu thành công. Vui lòng đăng nhập lại.";
                     return RedirectToAction("Login", "Account");
                 }
                 else
                 {
-                    // Nếu có lỗi xảy ra trong quá trình đặt lại mật khẩu
-                    ViewBag.ErrorMessage = "Có một lỗi phát sinh khi đổi mật khẩu. Vui lòng thử lại sau.";
+                    ViewBag.ErrorMessage = "Failed to update password.";
                     return View("Error");
                 }
             }
             catch (Exception ex)
             {
-                ViewBag.ErrorMessage = "Có lỗi xảy ra khi thay đổi mật khẩu: " + ex.Message;
+                // Hiển thị thông báo lỗi từ Exception
+                ViewBag.ErrorMessage = $"An error occurred while resetting the password: {ex.Message}";
+                return View("Error");
             }
-            // Trả về view tương ứng
-            return View("User_form");
+
         }
+
+
 
     }
 
